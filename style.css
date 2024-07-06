@@ -1,0 +1,275 @@
+body {
+    margin: 0 auto;
+    font-family: Outfit, Arial, sans-serif;
+    background-color: #f5f3f4;
+    color: #161a1d;
+}
+
+/* Header section */
+
+header {
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    padding: 0.5rem 2.5rem;
+    background-color: #f5f3f4;
+    border-bottom: 1px solid #161a1d;
+}
+
+.title {
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding: 0 3rem;
+}
+
+.title a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #161a1d;
+    letter-spacing: 0.2rem;
+}
+
+nav {
+    
+    float: right;
+}
+
+.menu {
+    text-decoration: none;
+    align-items: center;
+    cursor: pointer;
+    padding-right: 6.5rem;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 1.3rem 3.2rem;
+    font-size: 1.6rem;
+}
+
+.menu-item-list {
+    position: absolute;
+    padding: 0;
+    margin-top: 0.6rem;
+    float: right;
+}
+
+.menu-item-dropdown {
+    display: none;
+    position: relative;
+    background-color: #232a2e;
+    z-index: 999;
+    font-size: smaller;
+    
+    font-size: 1.3rem;
+}
+
+.menu-item-dropdown a {
+    display: block;
+    padding: 1.3rem 2.5rem;
+    margin: 0.3rem auto;
+    text-decoration: none;
+    color: #f5f3f4;
+}
+
+.menu-item:hover .menu-item-dropdown {
+    display: block;
+    text-decoration: none;
+}
+
+.menu-item-dropdown:hover {
+    background-color:#d3d3d3;
+}
+
+.menu-item-dropdown:hover a {
+    color: #0b090a;
+}
+
+/* Intro section */
+
+.intro {
+    display: flex;
+    flex: auto;
+    margin-bottom: 2rem;
+    z-index: 0;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 32rem;
+    background-color: #f5f3f4;
+    background-image: url('images/odiseo-castrejon-CX8ooha2yLA-unsplash.jpg');
+    background-size: cover;
+    background-position: 10% 70%;
+}
+
+.dustin {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.blurb {
+    width: 60rem;
+    height: 12.5rem;
+    padding: 2rem;
+    font-size: 2rem;
+    text-align: justify;
+    opacity: 0.9;
+    border-radius: 0.8rem;
+    background-color: #161a1d;
+    color: #f5f3f4;
+}
+
+/* Main sections */
+
+.section-type {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.8rem 0 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.section-type h2 {
+    margin: 1.5rem 48rem;
+    padding: 1.5rem 0;
+    border-top: 2px solid #161a1d;
+    border-bottom: 2px solid #161a1d;
+}
+
+.meals {
+    display: flex;
+    margin: 0 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.meal {
+    width: 34rem;
+    height: 38rem;
+}
+
+.meal-picture {
+    width: 100%;
+    height: 300px;
+}
+
+.meal-title {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.meal-description p {
+    height: 7rem;
+    margin: 0 auto;
+    padding: 0 3rem;
+    align-items: center;
+    text-align: justify;
+    font-size: 1.3rem;
+}
+
+.meal-button {
+    text-align: center;
+}
+
+.meal-button button {
+    margin: 0.5rem auto;
+    padding: 1rem 2.5rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #660708;
+    color: #d3d3d3;
+    cursor: pointer;
+}
+
+.meal-button button:hover {
+    font-weight: 600;
+    background-color:#b1a7a6;
+    color: #161a1d;
+}
+
+/* Footer section */
+
+.footer-contents {
+    margin-top: 4rem;
+    padding: 3.1rem;
+    /* font-size: 1.1rem; */
+    border-top: 1px solid #161a1d;
+}
+
+.food-temp-chart a {
+    margin-left: 4rem;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background-color: #d3d3d3;
+    color: #161a1d;
+}
+
+.food-temp-chart:hover a {
+    background-color: #161a1d;
+    color: #b1a7a6;
+}
+
+.nametag {
+    float: right;
+}
+
+/* Sub-pages */
+
+.sub-page-main-image img {
+    width: 100%;
+    height: 600px;
+}
+
+.sub-page-title {
+    font-size: 1.6rem;
+}
+
+.sub-page-title h2 {
+    margin: 3.2rem 48rem;
+    padding: 1.5rem 0;
+    text-align: center;
+    border-top: 2px solid #161a1d;
+    border-bottom: 2px solid #161a1d;
+}
+
+.description, .ingredients, .instructions {
+    margin: 2.5rem 16rem;
+    font-size: 1.6rem;
+}
+
+.ingredients {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.ingredients h3, .ingredients ul, .instructions h3 {
+    margin: 0;
+}
+
+.first-list, .second-list, .third-list {
+    max-width: 25rem;
+}
+
+h4 {
+    margin: 1.5rem 0 0.5rem 1rem;
+}
+
+.notes {
+    margin: 0;
+    padding-left: 4rem;
+}
+
+.note-intro {
+    list-style: none;
+}
+
+.food-temp-item {
+    font-weight: 700;
+}
+
+
