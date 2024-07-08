@@ -12,7 +12,6 @@ header {
     flex: auto;
     justify-content: space-between;
     padding: 0.5rem 2.5rem;
-    background-color: #f5f3f4;
     border-bottom: 1px solid #161a1d;
 }
 
@@ -95,7 +94,6 @@ nav {
     align-items: center;
     justify-content: space-evenly;
     height: 32rem;
-    background-color: #f5f3f4;
     background-image: url('images/odiseo-castrejon-CX8ooha2yLA-unsplash.jpg');
     background-size: cover;
     background-position: 10% 70%;
@@ -193,7 +191,6 @@ nav {
 .footer-contents {
     margin-top: 4rem;
     padding: 3.1rem;
-    /* font-size: 1.1rem; */
     border-top: 1px solid #161a1d;
 }
 
