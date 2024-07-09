@@ -119,17 +119,20 @@ nav {
 /* Main sections */
 
 .section-type {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+    font-size: 1.8rem;
     text-align: center;
-    padding: 0.8rem 0 2rem;
+    /* padding: 0.8rem 0 2rem; */
+    padding: 1.7rem;
     letter-spacing: 0.1rem;
 }
 
 .section-type h2 {
-    margin: 1.5rem 48rem;
-    padding: 1.5rem 0;
-    border-top: 2px solid #161a1d;
-    border-bottom: 2px solid #161a1d;
+    margin-top: 1rem;
+    /* margin: 1.5rem 48rem; */
+    /* padding: 1.5rem 0; */
+    /* border-top: 2px solid #161a1d;
+    border-bottom: 2px solid #161a1d; */
 }
 
 .meals {
