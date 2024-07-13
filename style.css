@@ -1,5 +1,5 @@
 body {
-    margin: 0 auto;
+    margin: 0;
     font-family: Outfit, Arial, sans-serif;
     background-color: #f5f3f4;
     color: #161a1d;
@@ -9,47 +9,43 @@ body {
 
 header {
     display: flex;
-    flex: auto;
     justify-content: space-between;
-    padding: 0.5rem 2.5rem;
+    align-items: center;
+    padding: 2rem 0;
+    background-color: #f5f3f4;
     border-bottom: 1px solid #161a1d;
 }
 
 .title {
-    font-size: 2.5rem;
-    cursor: pointer;
-    padding: 0 3rem;
+    margin: 0;
 }
 
 .title a {
+    padding-left: 2.8rem;
     text-transform: uppercase;
     text-decoration: none;
+    letter-spacing: 0.1rem;
+    font-size: 2.5rem;
     color: #161a1d;
-    letter-spacing: 0.2rem;
-}
-
-nav {
-    float: right;
+    cursor: pointer;
 }
 
 .menu {
-    text-decoration: none;
-    align-items: center;
+    margin: 0;
+    padding-right: 7rem;
     cursor: pointer;
-    padding-right: 6.5rem;
 }
 
 .menu-item {
     display: inline-block;
-    padding: 1.3rem 3.2rem;
-    font-size: 1.6rem;
+    padding: 0 2.5rem;
+    font-size: 1.4rem;
 }
 
 .menu-item-list {
     position: absolute;
     padding: 0;
-    margin-top: 0.6rem;
-    float: right;
+    /* margin-top: 0.6rem; */
 }
 
 .menu-item-dropdown {
@@ -57,13 +53,12 @@ nav {
     position: relative;
     background-color: #232a2e;
     z-index: 999;
-    font-size: smaller;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .menu-item-dropdown a {
     display: block;
-    padding: 1.3rem 2.5rem;
+    padding: 1.3rem 2rem;
     margin: 0.3rem auto;
     text-decoration: none;
     color: #f5f3f4;
@@ -71,7 +66,6 @@ nav {
 
 .menu-item:hover .menu-item-dropdown {
     display: block;
-    text-decoration: none;
 }
 
 .menu-item-dropdown:hover {
@@ -86,84 +80,71 @@ nav {
 
 .intro {
     display: flex;
-    flex: auto;
-    margin-bottom: 2rem;
-    z-index: 0;
-    align-items: center;
     justify-content: space-evenly;
+    align-items: center;
+    z-index: 0;
+    width: 100%;
     height: 32rem;
+    margin-bottom: 3rem;
+    background-color: #f5f3f4;
     background-image: url('images/odiseo-castrejon-CX8ooha2yLA-unsplash.jpg');
     background-size: cover;
     background-position: 10% 70%;
 }
 
 .dustin {
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    transform: rotate(25deg);
+    width: 300px;
+    height: 300px;
+    border-radius: 60%;
 }
 
-.blurb {
-    width: 60rem;
-    height: 12.5rem;
-    padding: 2rem;
-    font-size: 2rem;
-    text-align: justify;
+.blurb-div {
+    width: 55%;
+    padding: 1rem 2rem;
+    font-size: 1.7rem;
     opacity: 0.9;
     border-radius: 0.8rem;
     background-color: #161a1d;
-    color: #f5f3f4;
+    color: #f5f3f4;    
 }
 
 /* Main sections */
 
 .section-type {
-    /* font-size: 1.5rem; */
     font-size: 1.8rem;
     text-align: center;
-    /* padding: 0.8rem 0 2rem; */
-    padding: 1.7rem;
     letter-spacing: 0.1rem;
 }
 
 .section-type h2 {
-    margin-top: 1rem;
-    /* margin: 1.5rem 48rem; */
-    /* padding: 1.5rem 0; */
-    /* border-top: 2px solid #161a1d;
-    border-bottom: 2px solid #161a1d; */
+    margin: 2rem 0 3rem;
 }
 
 .meals {
     display: flex;
-    margin: 0 2rem;
-    align-items: center;
     justify-content: space-evenly;
 }
 
 .meal {
-    width: 34rem;
-    height: 38rem;
+    width: 30%;
+    height: 37rem;
 }
 
 .meal-picture {
     width: 100%;
-    height: 300px;
+    height: 16rem;
 }
 
-.meal-title {
-    font-size: 1.5rem;
+.meal-title h3 {
     text-align: center;
+    margin: 1.5rem 0;
+    font-size: 1.7rem;
 }
 
 .meal-description p {
-    height: 7rem;
-    margin: 0 auto;
-    padding: 0 3rem;
-    align-items: center;
-    text-align: justify;
-    font-size: 1.3rem;
+    height: 9rem;
+    padding: 0 1.5rem;
+    font-size: 1.4rem;
 }
 
 .meal-button {
@@ -171,7 +152,6 @@ nav {
 }
 
 .meal-button button {
-    margin: 0.5rem auto;
     padding: 1rem 2.5rem;
     border-radius: 10px;
     text-transform: uppercase;
@@ -271,4 +251,191 @@ h4 {
     font-weight: 700;
 }
 
+/* Resizing */
 
+@media (min-width: 1800px) {
+    .title a {
+        padding-left: 3rem;
+        font-size: 2.8rem;
+    }
+
+    .menu-item {
+        font-size: 1.6rem;
+    }
+
+    .menu-item-dropdown {
+        font-size: 1.2rem;
+    }
+
+    .dustin {
+        width: 330px;
+        height: 330px;
+    }
+
+    .blurb-div {
+        font-size: 2rem;
+    }
+
+    .section-type {
+        font-size: 2.3rem;
+    }
+
+    .meal-title h3 {
+        font-size: 2.1rem;
+    }
+
+    .meal-description p {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .title a {
+        padding-left: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .menu-item {
+        padding: 0 1rem;
+        font-size: 0.9rem;
+    }
+
+    .menu-item-dropdown {
+        font-size: 0.8rem;
+    }
+
+    .dustin {
+        width: 280px;
+        height: 280px;
+    }
+
+    .blurb-div {
+        font-size: 1.3rem;
+    }
+
+    .meal-title h3 {
+        font-size: 1.3rem;
+    }
+
+    .meal-description p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .title a {
+        padding-left: 0.6rem;
+        font-size: 1.3rem;
+    }
+
+    .menu {
+        padding-right: 6rem;
+    }
+
+    .menu-item {
+        padding: 0 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .menu-item-dropdown {
+        font-size: 0.6rem;
+    }
+
+    .dustin {
+        width: 250px;
+        height: 250px;
+    }
+
+    .blurb-div {
+        font-size: 1.1rem;
+    }
+
+    .meal-title h3 {
+        font-size: 1rem;
+    }
+
+    .meal-description p {
+        padding: 0 1rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 620px) {
+    header {
+        display: block;
+        padding: 1.5rem 0;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+
+    .menu {
+        padding: 0;
+        text-align: center;
+    }
+
+    .menu-item {
+        /* display: block; */
+        padding: 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .menu-item-dropdown a {
+        /* display: block; */
+        text-align: left;
+        padding: 0.6rem 0.9rem;
+        font-size: 0.6rem;
+    }
+
+    .dustin {
+        display: none;
+    }
+
+    .blurb-div {
+        width: 70%;
+        font-size: 1rem;
+    }
+
+    .section-type {
+        display: none;
+    }
+
+    .meals {
+        display: block;
+    }
+
+    .meal {
+        width: 100%;
+        height: 36rem;
+    }
+
+    .meal-title h3 {
+        font-size: 1.3rem;
+    }
+
+    .meal-description p {
+        height: 7rem;
+        padding: 0 1.2rem;
+        font-size: 1.1rem;
+    }
+
+    .footer-contents {
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .food-temp-chart {
+        margin: 1rem;
+    }
+
+    .food-temp-chart a {
+        margin: 1rem;
+    }
+
+    .nametag {
+        float: none;
+        margin: 2.5rem;
+    }
+}
