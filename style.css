@@ -45,7 +45,6 @@ header {
 .menu-item-list {
     position: absolute;
     padding: 0;
-    /* margin-top: 0.6rem; */
 }
 
 .menu-item-dropdown {
@@ -87,10 +86,8 @@ header {
     height: 32rem;
     margin-bottom: 3rem;
     background-color: #f5f3f4;
-    /* background-image: url('images/roam-in-color-RryFk4n-vOs-unsplash.jpg'); */
     background-image: url('images/odiseo-castrejon-CX8ooha2yLA-unsplash.jpg');
     background-size: cover;
-    /* background-position: 10% 50%; */
     background-position: 10% 70%;
 }
 
