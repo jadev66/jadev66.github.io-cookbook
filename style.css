@@ -87,8 +87,10 @@ header {
     height: 32rem;
     margin-bottom: 3rem;
     background-color: #f5f3f4;
+    /* background-image: url('images/roam-in-color-RryFk4n-vOs-unsplash.jpg'); */
     background-image: url('images/odiseo-castrejon-CX8ooha2yLA-unsplash.jpg');
     background-size: cover;
+    /* background-position: 10% 50%; */
     background-position: 10% 70%;
 }
 
@@ -203,27 +205,21 @@ header {
     height: 600px;
 }
 
+.sub-main-content {
+    margin: 0 9rem 8rem;
+    font-size: 1.4rem;
+}
+
 .sub-page-title {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .sub-page-title h2 {
-    margin: 3.2rem 48rem;
-    padding: 1.5rem 0;
     text-align: center;
-    border-top: 2px solid #161a1d;
-    border-bottom: 2px solid #161a1d;
-}
-
-.description, .ingredients, .instructions {
-    margin: 2.5rem 16rem;
-    font-size: 1.6rem;
 }
 
 .ingredients {
     display: flex;
-    flex: 1;
-    justify-content: space-between;
 }
 
 .ingredients h3, .ingredients ul, .instructions h3 {
@@ -231,20 +227,26 @@ header {
 }
 
 .first-list, .second-list, .third-list {
-    max-width: 25rem;
+    max-width: 24rem;
+    margin-left: 2rem;
 }
 
 h4 {
-    margin: 1.5rem 0 0.5rem 1rem;
+    margin: 1rem 0;
 }
 
 .notes {
     margin: 0;
-    padding-left: 4rem;
+    padding-left: 2rem;
 }
 
 .note-intro {
     list-style: none;
+}
+
+.food-temp-page {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 
 .food-temp-item {
@@ -287,6 +289,15 @@ h4 {
     .meal-description p {
         font-size: 1.7rem;
     }
+
+    .sub-main-content {
+        margin: 0 16rem;
+        font-size: 1.7rem;
+    }
+    
+    .sub-page-title {
+        font-size: 1.7rem;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -320,11 +331,28 @@ h4 {
     .meal-description p {
         font-size: 1.1rem;
     }
+
+    .sub-page-main-image img {
+        height: 500px;
+    }
+
+    .sub-main-content {
+        margin: 0 5rem;
+        font-size: 1.2rem;
+    }
+    
+    .sub-page-title {
+        font-size: 1.3rem;
+    }
+
+    .first-list, .second-list, .third-list {
+        margin-left: 1rem;
+    }
 }
 
 @media (max-width: 900px) {
     .title a {
-        padding-left: 0.6rem;
+        padding-left: 0.8rem;
         font-size: 1.3rem;
     }
 
@@ -358,6 +386,31 @@ h4 {
         padding: 0 1rem;
         font-size: 0.9rem;
     }
+
+    .sub-page-main-image img {
+        height: 400px;
+    }
+    
+    .sub-main-content {
+        margin: 0 4rem;
+        font-size: 1rem;
+    }
+    
+    .sub-page-title {
+        font-size: 1.2rem;
+    }
+
+    .ingredients {
+        display: block;
+    }
+
+    .first-list {
+        padding-top: 1rem;
+    }
+
+    .third-list {
+        padding-bottom: 1rem;
+    }
 }
 
 @media (max-width: 620px) {
@@ -370,20 +423,17 @@ h4 {
         text-align: center;
     }
 
-
     .menu {
         padding: 0;
         text-align: center;
     }
 
     .menu-item {
-        /* display: block; */
         padding: 0.8rem;
         font-size: 0.8rem;
     }
 
     .menu-item-dropdown a {
-        /* display: block; */
         text-align: left;
         padding: 0.6rem 0.9rem;
         font-size: 0.6rem;
@@ -422,9 +472,26 @@ h4 {
         font-size: 1.1rem;
     }
 
+    .sub-page-main-image img {
+        height: 300px;
+    }
+
+    .sub-main-content {
+        margin: 0 2rem;
+        font-size: 0.9rem;
+    }
+    
+    .sub-page-title {
+        font-size: 1.1rem;
+    }
+
+    .ingredients ul, .instructions ol, .instructions ul {
+        padding-left: 1rem;
+    }
+    
     .footer-contents {
         text-align: center;
-        padding: 2rem;
+        padding: 3.1rem 0 0;
     }
 
     .food-temp-chart {
@@ -437,6 +504,6 @@ h4 {
 
     .nametag {
         float: none;
-        margin: 2.5rem;
+        margin-top: 5rem;
     }
 }
