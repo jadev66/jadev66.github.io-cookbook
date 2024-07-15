@@ -126,7 +126,8 @@ header {
 
 .meal {
     width: 30%;
-    height: 37rem;
+    height: 5%;
+    /* height: 37rem; */
 }
 
 .meal-picture {
@@ -279,6 +280,10 @@ h4 {
         font-size: 2.3rem;
     }
 
+    .meal-picture {
+        height: 24rem;
+    }
+
     .meal-title h3 {
         font-size: 2.1rem;
     }
@@ -319,6 +324,10 @@ h4 {
 
     .blurb-div {
         font-size: 1.3rem;
+    }
+
+    .meal-picture {
+        height: 13rem;
     }
 
     .meal-title h3 {
@@ -373,6 +382,10 @@ h4 {
 
     .blurb-div {
         font-size: 1.1rem;
+    }
+
+    .meal-picture {
+        height: 8rem;
     }
 
     .meal-title h3 {
@@ -450,8 +463,13 @@ h4 {
         font-size: 1rem;
     }
 
+    .meal-picture {
+        height: 16rem;
+    }
+
     .section-type h2 {
         margin-top: 0;
+        /* display: none; */
     }
 
     .meals {
