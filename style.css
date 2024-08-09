@@ -55,6 +55,7 @@ header {
     padding: 0.3rem;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+    z-index: 900;
 }
 
 .menu-item-list {
