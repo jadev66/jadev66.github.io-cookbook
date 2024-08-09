@@ -47,6 +47,16 @@ header {
     color: #161a1d;
 }
 
+.dropdown-arrow {
+    border: solid #161a1d;
+    border-width: 0 0.1rem 0.1rem 0;
+    display: inline-block;
+    margin: 0 0 0.1rem 0.2rem;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
 .menu-item-list {
     position: absolute;
     padding: 0;
@@ -78,6 +88,10 @@ header {
 
 .menu-item-dropdown:hover a {
     color: #0b090a;
+}
+
+.dropdown-arrow:hover .menu-item-dropdown {
+    display: block;
 }
 
 /* Intro section */
