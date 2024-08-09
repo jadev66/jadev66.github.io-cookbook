@@ -49,10 +49,10 @@ header {
 
 .dropdown-arrow {
     border: solid #161a1d;
-    border-width: 0 0.1rem 0.1rem 0;
+    border-width: 0 0.15rem 0.15rem 0;
     display: inline-block;
-    margin: 0 0 0.1rem 0.3rem;
-    padding: 3px;
+    margin: 0 0 0.1rem 0.4rem;
+    padding: 0.3rem;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
@@ -408,12 +408,16 @@ h4 {
     }
 
     .menu {
-        padding-right: 6rem;
+        padding-right: 3rem;
     }
 
     .menu-item {
         padding: 0 0.5rem;
         font-size: 0.8rem;
+    }
+
+    .dropdown-arrow {
+        padding: 0.2rem;
     }
 
     .menu-item-dropdown {
@@ -468,7 +472,7 @@ h4 {
     }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 623px) {
     header {
         display: block;
         padding: 1.5rem 0;
@@ -484,7 +488,7 @@ h4 {
     }
 
     .menu-item {
-        padding: 0.8rem;
+        padding: 0.6rem;
         font-size: 0.8rem;
     }
 
