@@ -112,8 +112,8 @@ header {
 }
 
 .dustin {
-    width: 300px;
-    height: 300px;
+    width: 24vw;
+    height: 35vh;
     border-radius: 60%;
 }
 
@@ -314,8 +314,8 @@ h4 {
     }
 
     .dustin {
-        width: 350px;
-        height: 350px;
+        width: 22vw;
+        height: 40vh;
     }
 
     .blurb-div {
@@ -364,8 +364,8 @@ h4 {
     }
 
     .dustin {
-        width: 280px;
-        height: 280px;
+        width: 26vw;
+        height: 28vh;
     }
 
     .blurb-div {
@@ -426,8 +426,8 @@ h4 {
     }
 
     .dustin {
-        width: 250px;
-        height: 250px;
+        width: 24vw;
+        height: 20vh;
     }
 
     .blurb-div {
