@@ -112,9 +112,9 @@ header {
 }
 
 .dustin {
-    width: 24vw;
-    height: 35vh;
-    border-radius: 60%;
+    max-width: 24vw;
+    max-height: 35vh;
+    border-radius: 50%;
 }
 
 .blurb-div {
@@ -313,11 +313,6 @@ h4 {
         font-size: 1.2rem;
     }
 
-    .dustin {
-        width: 22vw;
-        height: 40vh;
-    }
-
     .blurb-div {
         font-size: 2rem;
     }
@@ -348,7 +343,7 @@ h4 {
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
     .title a {
         padding-left: 2rem;
         font-size: 1.8rem;
@@ -361,11 +356,6 @@ h4 {
 
     .menu-item-dropdown {
         font-size: 0.8rem;
-    }
-
-    .dustin {
-        width: 26vw;
-        height: 28vh;
     }
 
     .blurb-div {
@@ -426,11 +416,11 @@ h4 {
     }
 
     .dustin {
-        width: 24vw;
-        height: 20vh;
+        display: none;
     }
 
     .blurb-div {
+        width: 60%;
         font-size: 1.1rem;
     }
 
@@ -503,12 +493,8 @@ h4 {
         margin-bottom: 4rem;
     }
 
-    .dustin {
-        display: none;
-    }
-
     .blurb-div {
-        width: 70%;
+        width: 65%;
         margin-bottom: 4rem;
         font-size: 1rem;
     }
